@@ -24,7 +24,6 @@ Gemfile.lock
 node_modules
 bower_components
 fishd.*
-
 # Vim
 Session.vim
 .vim/bundle/
@@ -69,3 +68,4 @@ Pods/
 *karabiner*
 lvim*
 *iterm2*
+nvim/plugin*
