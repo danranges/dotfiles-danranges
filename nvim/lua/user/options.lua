@@ -5,10 +5,13 @@ vim.opt.cmdheight = 2                           -- more space in the neovim comm
 vim.opt.completeopt = { "menuone", "noselect" } -- mostly just for cmp
 vim.opt.conceallevel = 0                        -- so that `` is visible in markdown files
 vim.opt.fileencoding = "utf-8"                  -- the encoding written to a file
-vim.opt.hlsearch = true                         -- highlight all matches on previous search pattern
+vim.opt.hlsearch = false                        -- highlight all matches on previous search pattern
 vim.opt.ignorecase = true                       -- ignore case in search patterns
 vim.opt.mouse = "a"                             -- allow the mouse to be used in neovim
 vim.opt.pumheight = 10                          -- pop up menu height
+vim.opt.pumblend = 5
+vim.opt.winblend = 1
+vim.opt.background = "dark"
 vim.opt.showmode = false                        -- we don't need to see things like -- INSERT -- anymore
 vim.opt.showtabline = 2                         -- always show tabs
 vim.opt.smartcase = true                        -- smart case
@@ -30,8 +33,8 @@ vim.opt.relativenumber = false                  -- set relative numbered lines
 vim.opt.numberwidth = 4                         -- set number column width to 2 {default 4}
 vim.opt.signcolumn = "yes"                      -- always show the sign column, otherwise it would shift the text each time
 vim.opt.wrap = false                            -- display lines as one long line
-vim.opt.scrolloff = 8                           -- is one of my fav
-vim.opt.sidescrolloff = 8
+vim.opt.scrolloff = 12                           -- is one of my fav
+vim.opt.sidescrolloff = 12
 vim.opt.guifont = "monospace:h17"               -- the font used in graphical neovim applications
 
 vim.opt.shortmess:append "c"
