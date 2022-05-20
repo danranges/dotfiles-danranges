@@ -48,7 +48,8 @@ return packer.startup(function(use)
   -- Colorschemes
   use "overcache/NeoSolarized"
   use "lifepillar/vim-solarized8"
-  
+  use "LunarVim/Colorschemes"
+
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
   use "hrsh7th/cmp-buffer" -- buffer completions
