@@ -1,4 +1,4 @@
-local colorscheme = "solarized8"
+local colorscheme = "NeoSolarized"
 
  vim.api.nvim_command([[
      augroup ChangeBackgroudColour
@@ -11,3 +11,4 @@ if not status_ok then
   vim.notify("colorscheme " .. colorscheme .. " not found!")
   return
 end
+
