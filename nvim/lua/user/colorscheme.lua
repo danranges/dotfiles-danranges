@@ -1,4 +1,4 @@
-local colorscheme = "NeoSolarized"
+local colorscheme = "solarized"
 
  vim.api.nvim_command([[
      augroup ChangeBackgroudColour
