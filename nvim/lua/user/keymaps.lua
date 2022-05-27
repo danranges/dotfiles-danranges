@@ -70,3 +70,4 @@ keymap("n", "<leader>b", "<cmd>JABSOpen<cr>", opts)
 
 -- nvim-tree
 keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
+keymap("n", "<leader>c", ":Format<cr>", opts)
