@@ -51,6 +51,7 @@ return packer.startup(function(use)
 	use("kyazdani42/nvim-tree.lua")
 	use("nvim-lualine/lualine.nvim")
 	use("akinsho/toggleterm.nvim")
+	use("lewis6991/impatient.nvim")
 
 	-- Colorschemes
 	use("overcache/NeoSolarized")
