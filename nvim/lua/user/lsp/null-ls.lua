@@ -19,7 +19,7 @@ null_ls.setup({
 		formatting.prettier.with({ extra_args = { "--single-quote", "--jsx-single-quote" } }),
 		-- formatting.yapf,
 		formatting.stylua,
-		diagnostics.eslint,
+		-- diagnostics.eslint,
 	},
 	on_attach = on_attach,
 })
