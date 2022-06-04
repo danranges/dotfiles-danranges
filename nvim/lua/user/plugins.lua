@@ -96,6 +96,7 @@ return packer.startup(function(use)
 	use("p00f/nvim-ts-rainbow")
 	use("nvim-treesitter/playground")
 	use("JoosepAlviste/nvim-ts-context-commentstring")
+	use("windwp/nvim-ts-autotag")
 
 	-- Git
 	use("lewis6991/gitsigns.nvim")
